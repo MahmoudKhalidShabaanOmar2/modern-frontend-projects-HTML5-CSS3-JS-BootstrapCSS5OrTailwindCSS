@@ -1,0 +1,34 @@
+var fristUserName=document.getElementById("fristUserName");
+var secondUserName=document.getElementById("secondUserName");
+var lastUserName=document.getElementById("lastUserName");
+var userEmail=document.getElementById("userEmail");
+var userReEmail=document.getElementById("userReEmail");
+var userGender=document.getElementById("userGender");
+var userAge=document.getElementById("userAge");
+var userBirthDate=document.getElementById("userBirthDate");
+var userSalary=document.getElementById("userSalary");
+var userPassword=document.getElementById("userPassword");
+var userRePassword=document.getElementById("userRePassword");
+function userRegisterationNow(){
+    var uFristName=document.getElementById("fUserName");
+    uFristName.innerHTML="the frist user name Is : \""+fristUserName.value+"\"";
+    var uSecondName=document.getElementById("sUserName");
+    uSecondName.innerHTML="the second user name Is : \""+secondUserName.value+"\"";
+    var uLastName=document.getElementById("lUserName");
+    uLastName.innerHTML="the last user name Is : \""+lastUserName.value+"\"";
+    var uEmail=document.getElementById("uEmail");
+    uEmail.innerHTML="the user email Is : "+userEmail.value;
+    var uReEmail=document.getElementById("uReEmail");
+    uReEmail.innerHTML="the user re email is : "+userReEmail.value;
+    var uGender=document.getElementById("uGender");
+    uGender.innerHTML="the user gender is : "+userGender.value;
+    var uAge=document.getElementById("uAge");
+    uAge.innerHTML="the user age is : "+userAge.value+" Years";
+    var uBirthDate=document.getElementById("uBirthDate");
+    uBirthDate.innerHTML="the user birth date Is: "+userBirthDate.value;
+    var uSalary=document.getElementById("uSalary");
+    uSalary.innerHTML="the user salary is : "+userSalary.value+" $";
+    var uPassword=document.getElementById("uPassword");
+    uPassword.innerHTML="the user password is : "+userPassword.value;
+    var uRePassword=document.getElementById("uRePassword").innerHTML="The User Re Password Is : "+userRePassword.value;
+}
